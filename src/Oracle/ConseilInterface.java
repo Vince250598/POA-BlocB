@@ -2,7 +2,7 @@ package Oracle;
 
 public interface ConseilInterface {
 
-    public void conseiller();
+    void conseiller();
 
-    public void conseiller(String raison);
+    void conseiller(String raison);
 }

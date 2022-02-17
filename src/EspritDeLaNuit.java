@@ -1,8 +1,6 @@
-import Oracle.Oracle;
-
 public interface EspritDeLaNuit {
 
-    public void donnerConseilJudicieux();
+    void demanderConseil();
 
-    public void faireUnRareMiracle();
+    void demanderMiracle();
 }

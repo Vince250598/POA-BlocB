@@ -2,9 +2,9 @@ package Oracle;
 
 public interface EcouterInterface {
 
-    public void ecouterLesBesoins();
+    void ecouterLesBesoins();
 
-    public String ecouterLesBesoinsEtRepondre();
+    String ecouterLesBesoinsEtRepondre();
 
-    public void ecouterLesBesoinsEtRealiserMiracle();
+    void ecouterLesBesoinsEtRealiserMiracle();
 }

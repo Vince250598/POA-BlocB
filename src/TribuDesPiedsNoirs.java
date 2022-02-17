@@ -1,15 +1,15 @@
 import Oracle.Oracle;
 
-public class TributDesPiedsNoirs implements EspritDeLaNuit {
+public class TribuDesPiedsNoirs implements EspritDeLaNuit {
+
     @Override
-    public void donnerConseilJudicieux() {
+    public void demanderConseil() {
         Oracle.getInstance().getConseilInterface().conseiller();
-
     }
 
     @Override
-    public void faireUnRareMiracle() {
+    public void demanderMiracle() {
         Oracle.getInstance().getMiracleInterface().realiserUnMiracle();
-
     }
+
 }

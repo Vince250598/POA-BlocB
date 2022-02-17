@@ -5,11 +5,18 @@ public final class Conseil implements ConseilInterface {
     public Conseil(){
     }
 
-    public void conseiller(){
+    @Override
+    public void conseiller() {
         System.out.println("Voici un sage conseil: ...");
     }
 
-    public void conseiller(String raison){
-        System.out.println("Voici un sage conseil pour la raison " + raison + " ...");
+    @Override
+    public void conseiller(String demande) {
+        System.out.println("Voici un sage conseil par rapport à : " + demande + " ...");
     }
+
+
+
+
+
 }

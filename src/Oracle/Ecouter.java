@@ -10,7 +10,7 @@ public final class Ecouter implements EcouterInterface {
 
     @Override
     public String ecouterLesBesoinsEtRepondre() {
-        return "Voici comment regler tes problemes...";
+        return "Voici comment régler vos problèmes...";
     }
 
     @Override

@@ -38,10 +38,7 @@ public class Oracle {
     }
 
 
-    Conseil getConseil() {
-
-        return conseil;
-    }
+    Conseil getConseil() { return conseil; }
 
     Miracle getMiracle() {
         return miracle;
@@ -51,7 +48,7 @@ public class Oracle {
         return ecouter;
     }
 
-    public Prophetie getProphetie() {
+    Prophetie getProphetie() {
         return prophetie;
     }
 }

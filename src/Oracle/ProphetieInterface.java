@@ -2,7 +2,7 @@ package Oracle;
 
 public interface ProphetieInterface {
 
-    public void donnerUneProphetie();
+    void donnerUneProphetie();
 
-    public void donnerUneProphetieDansUnReve();
+    void donnerUneProphetieDansUnReve();
 }
