@@ -21,24 +21,26 @@ public class Oracle {
 
     public ConseilInterface getConseilInterface() {
 
-        return (ConseilInterface) conseil;
+        return conseil;
     }
 
     public MiracleInterface getMiracleInterface() {
 
-        return (MiracleInterface) miracle;
+        return miracle;
     }
 
     public EcouterInterface getEcouterInterface() {
-        return (EcouterInterface) ecouter;
+        return ecouter;
     }
 
     public ProphetieInterface getProphetieInterface() {
-        return (ProphetieInterface) prophetie;
+        return prophetie;
     }
 
 
-    Conseil getConseil() { return conseil; }
+    Conseil getConseil() {
+        return conseil;
+    }
 
     Miracle getMiracle() {
         return miracle;

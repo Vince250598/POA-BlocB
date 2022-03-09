@@ -1,5 +1,3 @@
-import Oracle.Oracle;
-
 public class Main {
 
     public static void main(String args[]){
@@ -10,9 +8,9 @@ public class Main {
         tribuDesPiedsNoirs.demanderMiracle();
 
         System.out.println("------------------Tribu des danseurs masqués------------------");
-        TribuDesDanseursMasqués tribuDesDanseursMasqués = new TribuDesDanseursMasqués();
-        tribuDesDanseursMasqués.chanterEtFaireDesRituels();
-        tribuDesDanseursMasqués.transeDuShaman("guerre");
+        TribuDesDanseursMasques tribuDesDanseursMasques = new TribuDesDanseursMasques();
+        tribuDesDanseursMasques.chanterEtFaireDesRituels();
+        tribuDesDanseursMasques.transeDuShaman("guerre");
 
         System.out.println("------------------Tribu des guerriers du soleil------------------");
         TribuDesGuerriersDuSoleil tribuDesGuerriersDuSoleil = new TribuDesGuerriersDuSoleil();
@@ -20,10 +18,10 @@ public class Main {
         tribuDesGuerriersDuSoleil.sacrifice();
 
         System.out.println("------------------Tribu des ours affamés------------------");
-        TribuDesOursAffamés tribuDesOursAffamés = new TribuDesOursAffamés();
-        tribuDesOursAffamés.danser();
-        tribuDesOursAffamés.faireUnFestinPourLeDieuOurs();
-        tribuDesOursAffamés.construireMonumentAuDieuOurs();
+        TribuDesOursAffames tribuDesOursAffames = new TribuDesOursAffames();
+        tribuDesOursAffames.danser();
+        tribuDesOursAffames.faireUnFestinPourLeDieuOurs();
+        tribuDesOursAffames.construireMonumentAuDieuOurs();
     }
 }
 

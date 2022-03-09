@@ -1,6 +1,6 @@
 import Oracle.Oracle;
 
-public class TribuDesDanseursMasqués implements Totems{
+public class TribuDesDanseursMasques implements Totems{
 
 
     @Override
