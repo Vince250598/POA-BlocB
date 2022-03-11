@@ -1,6 +1,6 @@
 package Oracle;
 
-public final class Prophetie implements ProphetieInterface{
+public final class Prophetie implements ProphetieInterface {
 
     @Override
     public void donnerUneProphetie() {

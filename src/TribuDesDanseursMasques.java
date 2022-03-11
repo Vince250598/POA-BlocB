@@ -1,6 +1,6 @@
 import Oracle.Oracle;
 
-public class TribuDesDanseursMasques implements Totems{
+public class TribuDesDanseursMasques implements Totems {
 
 
     @Override
@@ -10,7 +10,6 @@ public class TribuDesDanseursMasques implements Totems{
 
     @Override
     public void transeDuShaman(String demandePourConseil) {
-        //TODO ajouter de la proba pour le conseil ?
         Oracle.getInstance().getConseilInterface().conseiller(demandePourConseil);
     }
 }

@@ -2,7 +2,7 @@ package Oracle;
 
 public final class Conseil implements ConseilInterface {
 
-    public Conseil(){
+    public Conseil() {
     }
 
     @Override
@@ -14,9 +14,6 @@ public final class Conseil implements ConseilInterface {
     public void conseiller(String demande) {
         System.out.println("Voici un sage conseil par rapport à : " + demande + " ...");
     }
-
-
-
 
 
 }

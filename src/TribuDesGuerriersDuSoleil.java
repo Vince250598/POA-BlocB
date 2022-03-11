@@ -1,6 +1,6 @@
 import Oracle.Oracle;
 
-public class TribuDesGuerriersDuSoleil implements AmeDesAncêtres{
+public class TribuDesGuerriersDuSoleil implements AmeDesAncêtres {
 
     @Override
     public void sacrifice() {
